@@ -1,2 +1,3 @@
 # Cafe-Billing-Python
 It utilizes dictionaries to store menu prices, user input for orders (item and quantity), calculates subtotal, applies an 5% sales tax, and generates a receipt."
+This program presents the user with the menu of an cafe.The program asks the user with the name as well as the user's order.If the item is not present in the menu then the user gets an error.The while loop works till the time the user gives the input for order>>.The program then checks the subtotal.If its equal to 0 then we get an message "No Order PLaced,Thank You".This program generates the bill in such an format which is mostly used by billing machines,like the tax amount,total amount,subamount things in proper format.
