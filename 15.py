@@ -1,6 +1,8 @@
 tax_rate = 0.05
 subtotal = 0.0
-dicta={"Americano":65,"Cappacino":80,"Mojjito":90,"Chocolate MilkShake":80,"Matcha":60}
+a=["Americano","Cappacino","Mojjito","Chocolate MilkShake","Matcha"]
+b=[65,80,90,80,60]
+dicta=dict(zip(a,b))
 print("Welcome To Our Cafe")
 a=input("Enter Your Name:")
 print("Menu:")
